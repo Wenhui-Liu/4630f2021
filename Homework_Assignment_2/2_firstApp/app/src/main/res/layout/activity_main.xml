@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:background="#81d4fa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/text1"
+            android:text="Write my first app"
+            android:textColor="#303f9f"
+            android:textSize="35sp"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="20dp" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:src="@drawable/selfie"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="@string/button_name"
+            android:textSize="24sp"
+            android:backgroundTint="#dce775"
+            android:textColor="#689f38"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:id="@+id/linearlayout2"
+    android:background="#0d5302"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="invisible">
+        <ImageView
+            android:id="@+id/image2"
+            android:src="@drawable/android"
+            android:background="#0d5302"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/text2"
+            android:text="@string/congratulation"
+            android:textColor="#f1f8e9"
+            android:textSize="35sp"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:id="@+id/text3"
+            android:text="@string/wenhui"
+            android:textColor="#f1f8e9"
+            android:textSize="35sp"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="144dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
