@@ -1,0 +1,9 @@
+I need to use GitHub Desktop when I submit Homework 2. But due to the incorrect 
+naming of Homework 0 and Homework 1, I cannot use GitHub Desktop application to 
+push and commit Homework 2's files to remote repository.
+
+I submitted both Homework 0 and Homework 1 on time. You can find the evidence in 
+my screenshot Why_I_Rename_HW0_and_HW1.jpg.
+
+So, I renamed Homework 0 and Homework 1, so that Homework 2 can use GitHub Desktop
+application to push and commit its files to remote repository normally. 
