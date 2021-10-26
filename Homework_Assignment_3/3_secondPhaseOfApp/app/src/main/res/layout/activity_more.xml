@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativelayout_more_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:id="@+id/more_page_text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/more_txt_title"
+        android:textColor="#1a237e"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"/>
+    <TextView
+        android:id="@+id/more_page_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="☆ My favorite sport:"
+        android:textColor="#5d4037"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="56dp"
+        android:layout_marginLeft="36dp"
+        android:layout_below="@id/more_page_text_title"/>
+    <TextView
+        android:id="@+id/more_page_answer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swimming, Basketball"
+        android:textColor="#5d4037"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/more_page_text1"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/more_page_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="☆ My favorite video games:"
+        android:textColor="#5d4037"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="36dp"
+        android:layout_below="@id/more_page_text1"/>
+    <TextView
+        android:id="@+id/more_page_answer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pokemon"
+        android:textColor="#5d4037"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/more_page_text2"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/more_page_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="☆ The place I want to visit:"
+        android:textColor="#5d4037"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="36dp"
+        android:layout_below="@id/more_page_text2"/>
+    <TextView
+        android:id="@+id/more_page_answer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mount Fuji (Japan)"
+        android:textColor="#5d4037"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/more_page_text3"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/more_page_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="☆ 3 - Item To Do List:"
+        android:textColor="#5d4037"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="36dp"
+        android:layout_below="@id/more_page_text3"/>
+    <TextView
+        android:id="@+id/more_page_answer4_1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="1. Surfing"
+        android:textColor="#5d4037"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/more_page_text4"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/more_page_answer4_2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="2. Skydiving"
+        android:textColor="#5d4037"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/more_page_answer4_1"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/more_page_answer4_3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="3. Driving racing cars"
+        android:textColor="#5d4037"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/more_page_answer4_2"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

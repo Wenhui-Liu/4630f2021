@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativelayout_resume_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:background="@drawable/background2">
+    <TextView
+        android:id="@+id/resume_page_text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resume_txt_title"
+        android:textColor="#1a237e"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"/>
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/resume_page_pdfview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/resume_page_text_title"/>
+</RelativeLayout>

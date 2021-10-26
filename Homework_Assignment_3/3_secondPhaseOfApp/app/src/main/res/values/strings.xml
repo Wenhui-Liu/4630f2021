@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">HW3</string>
+    <!-- String for activity_main.xml -->
+    <string name="hw2_textview1">This is my app</string>
+    <string name="hw2_btn_aboutme">more about Wenhui</string>
+    <!-- String for activity_initial.xml -->
+    <string name="initial_txt_title">Wenhui\'s Homepage</string>
+    <string name="initial_btn_weather">weather around me</string>
+    <string name="initial_btn_facts">facts about me</string>
+    <string name="initial_btn_investment">the investment portfolio</string>
+    <string name="initial_btn_resume">my resume</string>
+    <string name="initial_btn_more">more about me</string>
+    <string name="initial_btn_settings">settings</string>
+    <!-- String for activity_facts.xml -->
+    <string name="facts_txt_title">Facts about Me\n and My Friend</string>
+    <string name="facts_txt_myname">Wenhui:</string>
+    <string name="facts_txt_friendname">My Friend:</string>
+    <!-- String for activity_more.xml -->
+    <string name="more_txt_title">More about Wenhui</string>
+    <!-- String for activity_resume.xml -->
+    <string name="resume_txt_title">This is My Resume</string>
+    <!-- String for activity_weather.xml -->
+    <string name="weather_txt_title">The Weather around\n Me</string>
+    <!-- String for activity_investment.xml -->
+    <string name="investment_txt_title">Investment Portfolio</string>
+    <string name="investment_btn">show</string>
+    <!-- String for activity_settings.xml -->
+    <string name="settings_txt_title">Settings</string>
+    <string name="settings_txt_sound">Sound</string>
+</resources>
